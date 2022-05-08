@@ -1,0 +1,49 @@
+
+body { 
+  background-image: linear-gradient(-45deg, #bcbcbc 50%, #000000 50%);
+}
+
+h1 {
+  font-family:Magical Feather;
+  text-align: center;
+  color: white;
+  font-size: 85px;
+  text-shadow: 1px 2px 4px white, 0 0 25px blue, 0 0 5px blue
+}
+
+h2 {
+  font-family:Bradley Hand ITC;
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  text-shadow: 1px 2px 4px white, 0 0 25px blue, 0 0 5px blue
+}
+  
+p {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px 4px lightslategray, 0 0 25px red, 0 0 5px red
+}
+  
+div.galeria{ 
+  margin: 26px 56px;
+  box-shadow: 0 4px 8px 0 indianred, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  width: 350px;
+}
+
+div.galeria img{
+  height: 80;
+  width:100%
+}
+
+div.galeria:hover{
+  transform:rotate(-3deg);
+  border: 1px solid deepskyblue
+}
+
+div.pie{
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  padding: 10px;
+}
